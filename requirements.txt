@@ -1,0 +1,13 @@
+# Core dependencies for the FIFA match-prediction models.
+# tkinter ships with CPython (no pip install needed).
+numpy>=2.0
+pandas>=2.2
+networkx>=3.2
+matplotlib>=3.8
+
+# Neural network (train_nn.py / nn_model.py) and its metrics
+torch>=2.2
+scikit-learn>=1.3
+
+# Interactive browser graph (graph_visualize.py)
+pyvis>=0.3.2
